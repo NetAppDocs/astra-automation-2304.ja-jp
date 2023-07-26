@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: rn/about.html 
+keywords: about, about this release, current release 
+summary: このサイトのドキュメントでは、Astra Control REST APIと、Astra Controlで利用可能な関連自動化テクノロジについて説明しています。 
+---
+= このリリースについて
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+このサイトのドキュメントでは、次の2つのAstra Control導入モデルに含まれるAstra Control REST APIと関連する自動化テクノロジについて説明します。
+
+
+NOTE: Astra Controlのすべてのリリースには、* YY.MM *形式のバージョン番号が割り当てられます。この値は、利用可能になった年（_YY_）と月（_MM_）に基づいてバージョンを識別します。たとえば、2023年4月にAstra Control Center 23.04がリリースされました。
+
+.ケイデンスを解放します
+一般に、Astra Control ServiceとAstra Control Centerの更新は同時に行われます。ただし、Astra Control Serviceではリリースサイクルが短縮されているため、最新のAstra Control Centerバージョン以降に1つ以上の差分更新が行われる可能性があります。
+
+このサイトには両方の導入モデルのREST APIが記載されているため、一部の機能は最新のAstra Control Serviceリリースでしか使用できない場合があります。2つの導入モデルの違いを必要に応じて記載します。
+
+.Astra Controlの導入
+このサイトのドキュメント環境 次のAstra Controlリリース：
+
+* Astra Control Center 23.04
+* Astra Control Service 23.06
+
+
+.詳細情報
+最新リリースおよび以前のAstra Controlリリースの詳細については、次のページとサイトを参照してください。
+
+* link:../rn/whats_new.html["Astra Control REST API の新機能"]
+* link:../endpoints/resources.html["REST のリソースとエンドポイント"]
+* https://docs.netapp.com/us-en/astra-control-center-2304/["Astra Control Center 23.04のドキュメント"^]
+* link:../aa-earlier-versions.html["旧バージョンの Astra Automation ドキュメント"]
+
+
+.ドキュメントの改善にご協力ください
+Twitter *@NetAppDoc *でネットアップのドキュメントに関する通知をお送りしています。また、を作成してフィードバックを送信することもできます link:https://docs.netapp.com/us-en/contribute/["GitHub の貢献者"^] または、_doccomments@netapp.com_に電子メールを送信します。
