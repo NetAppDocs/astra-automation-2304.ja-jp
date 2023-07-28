@@ -1191,7 +1191,6 @@
   <block id="af7c4c7bd30238dcb53e639cf7a50996" category="cell">リソースを作成したユーザ ID の UUIDv4 識別子を含む JSON 文字列。リソースが内部システムコンポーネントによって作成され、作成するエンティティに関連付けられている UUID がない場合は、「 * null * UUID 」が使用されます。</block>
   <block id="6cb8b958a36383ed1b7bacc626d0a5dd" category="paragraph-title">リソースの状態</block>
   <block id="b7aa38141b9dd3f7e78cd09e7f60ce0c" category="paragraph">選択したリソースA<block ref="9ed39e2ea931586b6a985a6942ef573e" prefix=" " category="inline-code"></block> ライフサイクル移行のオーケストレーションとアクセスの制御に使用する値。</block>
-  <block id="1045f2798351223896fdab281a8307eb" category="sidebar">Astra Control Automation のドキュメント</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">以前のバージョン</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
@@ -1231,4 +1230,5 @@
   <block id="b99e07f4bea810f88b69ecfe1784ab28" category="sidebar">クラウドを表示します</block>
   <block id="b65e59022e022b723c1c1fbb73cd0092" category="sidebar">バケットをリストします</block>
   <block id="157ecd713825d83c3595df6b4c0c11af" category="sidebar">リファレンスドキュメントにアクセス</block>
+  <block id="8f5acd94867d6ae4b479db02c3a9b834" category="sidebar">Astra Control Automation 23.04のドキュメント</block>
 </blocks>

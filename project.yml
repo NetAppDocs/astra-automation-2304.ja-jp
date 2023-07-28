@@ -28,7 +28,7 @@ settings:
   langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Astra Control Automation のドキュメント
+  - title: Astra Control Automation 23.04のドキュメント
     url: "/index.html"
   - section: rn
   - section: intro
