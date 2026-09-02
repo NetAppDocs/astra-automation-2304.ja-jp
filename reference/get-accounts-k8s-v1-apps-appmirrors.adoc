@@ -7,6 +7,7 @@ summary: アプリのAppMirrorリソースを一覧表示します
 ---
 = アプリのAppMirrorリソースを一覧表示します
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/k8s/v1/apps/{app_id}/appMirrors`#
@@ -15,6 +16,7 @@ summary: アプリのAppMirrorリソースを一覧表示します
 
 
 
+[[parameters]]
 == パラメータ
 
 [cols="5*"]
@@ -70,6 +72,7 @@ OpenAPI の例：「field eq 'value'」
 |===
 
 
+[[response]]
 == 応答
 
 [source]
@@ -231,6 +234,7 @@ Status: 200, Returns a JSON array of all matching resources in the collection. I
 ====
 
 
+[[response]]
 == 応答
 
 [source]
@@ -276,6 +280,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == 応答
 
 [source]
@@ -326,6 +331,7 @@ Status: 400, Bad request
 ====
 
 
+[[response]]
 == 応答
 
 [source]
@@ -371,6 +377,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == エラー
 
 [source]
@@ -416,11 +423,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == 用語の意味
 
 .定義を参照
 [%collapsible]
 ====
+[[namespaceMapping]]
 [role="api-collapsible-fifth-title"]
 namespaceMapping
 
@@ -446,6 +455,7 @@ namespaceMapping
 
 
 |===
+[[storageClasses]]
 [role="api-collapsible-fifth-title"]
 storageClasses
 
@@ -470,6 +480,7 @@ storageClasses
 
 
 |===
+[[type_astra_stateTransition]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateTransition
 
@@ -485,6 +496,7 @@ type_astra_stateTransition
 | - | array[string] | True  a| 
 
 |===
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -504,6 +516,7 @@ type_astra_stateDetail
 | 詳細 | string | True  a| 
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 type_astra_label
 
@@ -519,6 +532,7 @@ type_astra_label
 | Value | string | True  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_update
 
@@ -551,6 +565,7 @@ type_astra_metadata_update
 | modifiedBy | string | False  a| 
 
 |===
+[[appMirror_1_0_get_response_body]]
 [role="api-collapsible-fifth-title"]
 appMirror_1.0_get_response_body
 
@@ -753,6 +768,7 @@ appMirror_1.0_get_response_body
 
 
 |===
+[[type_astra_metadata_list]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_list
 
@@ -788,6 +804,7 @@ type_astra_metadata_list
 | modifiedBy | string | False  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
